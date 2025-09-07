@@ -1,0 +1,71 @@
+# ---- OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+
+# ---- Virtual envs / Conda
+.venv/
+venv/
+env/
+.conda/
+*.conda
+*.lock
+
+# ---- Secrets & env files
+.env
+.env.*
+.envrc
+praw.ini
+secrets/
+*.pem
+*.key
+*.crt
+
+# ---- Editors / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- Logs
+*.log
+
+# ---- Data & artifacts (keep folder, ignore contents)
+data/
+!data/.gitkeep
+
+# If you keep images elsewhere too
+images/
+!images/.gitkeep
+
+# ---- Binary/model/db artifacts (in case they land outside data/)
+*.faiss
+*.index
+*.sqlite*
+*.db
+*.npz
+*.npy
+*.parquet
+*.feather
+
+# ---- Node/JS (only if you add a frontend later)
+node_modules/
