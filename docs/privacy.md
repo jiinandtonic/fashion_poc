@@ -7,7 +7,7 @@ title: Privacy Policy — Fashion Trend Recommender (PoC)
 **Contact:** rongjiinc@gmail.com
 
 ## 1) Who we are
-This is a personal prototype application (“App”) created by <Jiin Chen>, based in Australia.
+This is a personal prototype application (“App”) created by Jiin, based in Australia.
 
 ## 2) What this App does
 The App analyzes fashion images to surface trending styles and personalize recommendations.
