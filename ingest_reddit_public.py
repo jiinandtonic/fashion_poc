@@ -2,7 +2,7 @@
 import os, time, csv, argparse, requests
 from datetime import datetime, timezone
 
-HDRS = {"User-Agent": "fashion-poc/0.1 by yourusername"}  # keep this descriptive
+HDRS = {"User-Agent": "fashion-poc/0.1 by jiinandtonic"}  # keep this descriptive
 
 def is_image(u):
     u = u.lower().split("?")[0]
